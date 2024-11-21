@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(245, 217, 193);
+}
+html{
+    font-size: 12px;
+}
+#container{
+    background-color: hsl(0, 0%, 100%);
+    width: 43%;  
+    padding:1em;
+    margin:auto;
+    border-radius: 10px;
+    justify-content: first baseline;
+}
+img{
+    width:100%;
+    border-radius: 20px;
+}
+#heading{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{
+    color:hsl(332, 51%, 32%)
+}
+#divone{
+background-color: hsl(330, 100%, 98%);
+width:90%;
+padding:1rem;
+border-radius: 12px;
+margin-left: 1em;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+}
+
+p,li,td{
+    font-family:"Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    line-height: 25px;
+}
+
+td{
+    width:2%;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media screen and (max-width:375px){
+    #container{
+        
+        width: 94%;
+       
+      
+    }
+}
